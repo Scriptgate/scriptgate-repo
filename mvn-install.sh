@@ -21,3 +21,11 @@ mvn install:install-file \
  -Dpackaging=jar \
  -Dfile=engine-lwjgl-0.0.1-SNAPSHOT.jar \
  -DlocalRepositoryPath=.
+
+ mvn install:install-file \
+  -DgroupId=net.scriptgate.masonry \
+  -DartifactId=masonry \
+  -Dversion=0.0.1-SNAPSHOT \
+  -Dpackaging=jar \
+  -Dfile=masonry-0.0.1-SNAPSHOT.jar \
+  -DlocalRepositoryPath=.
